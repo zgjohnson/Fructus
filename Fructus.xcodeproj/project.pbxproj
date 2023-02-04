@@ -16,6 +16,7 @@
 		53A25CD3298EA43E00AF8AC7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A25CD2298EA43E00AF8AC7 /* OnboardingView.swift */; };
 		53A25CD6298EA79D00AF8AC7 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A25CD5298EA79D00AF8AC7 /* FruitModel.swift */; };
 		53A25CD9298EA85100AF8AC7 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A25CD8298EA85100AF8AC7 /* FruitData.swift */; };
+		53A25CDB298EE9D300AF8AC7 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A25CDA298EE9D300AF8AC7 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		53A25CD2298EA43E00AF8AC7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		53A25CD5298EA79D00AF8AC7 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		53A25CD8298EA85100AF8AC7 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		53A25CDA298EE9D300AF8AC7 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		53A25CCD298E093100AF8AC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				53A25CDA298EE9D300AF8AC7 /* FruitRowView.swift */,
 				53A25CCE298E094900AF8AC7 /* FruitCardView.swift */,
 				53A25CD0298EA17A00AF8AC7 /* StartButtonView.swift */,
 			);
@@ -186,6 +189,7 @@
 			files = (
 				53A25CD9298EA85100AF8AC7 /* FruitData.swift in Sources */,
 				53A25CCF298E094900AF8AC7 /* FruitCardView.swift in Sources */,
+				53A25CDB298EE9D300AF8AC7 /* FruitRowView.swift in Sources */,
 				53A25CD1298EA17A00AF8AC7 /* StartButtonView.swift in Sources */,
 				53A25CD3298EA43E00AF8AC7 /* OnboardingView.swift in Sources */,
 				53A25CC1298DFC5D00AF8AC7 /* ContentView.swift in Sources */,
