@@ -57,6 +57,7 @@ struct FruitDeatilView: View {
             }//: SROLL
             .edgesIgnoringSafeArea(.top)
         }//: NAVIGATION
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

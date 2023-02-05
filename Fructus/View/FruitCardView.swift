@@ -43,6 +43,7 @@ struct FruitCardView: View {
             }//: VSTACK
         }//: ZSTACK
         .onAppear {
+            isAnimating = false
             withAnimation(.easeOut(duration: 0.5)) {
                 isAnimating = true
             }
